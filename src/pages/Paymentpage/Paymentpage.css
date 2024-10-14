@@ -1,0 +1,126 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+/* Container styling */
+.container {
+    max-height: 100vh; /* Limit the container height */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Row styling */
+.row {
+    display: flex; /* Flexbox layout */
+}
+
+/* Left Side: Shopping Cart Details */
+.cart-details {
+    max-height: calc(100vh - 2rem); /* Allow space for padding */
+    overflow-y: auto; /* Enable scrolling if needed */
+}
+
+/* Right Side: Payment Options */
+.payment-options {
+    margin-left: 20px; /* Space between left and right sections */
+    flex-shrink: 0; /* Prevent shrinking */
+    max-height: calc(100vh - 2rem); /* Allow space for padding */
+}
+
+/* Table styling */
+.table {
+    font-size: 0.9rem; /* Smaller font size for the table */
+    margin-bottom: 1rem; /* Space below the table */
+}
+
+.table th, .table td {
+    padding: 0.5rem; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Card styling */
+.card {
+    padding: 0.5rem; /* Reduce padding inside the card */
+    border: 1px solid #dee2e6; /* Light border for the card */
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Button styling */
+.btn {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Adjust button padding */
+    width: 100%; /* Full width of the card */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 0.25rem; /* Rounded corners for buttons */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Quantity button styling */
+.btn-quantity {
+    width: 30px; /* Fixed width for quantity buttons */
+    height: 30px; /* Fixed height for quantity buttons */
+    margin: 0 5px; /* Space around buttons */
+    background-color: #e9ecef; /* Light background for quantity buttons */
+    border: 1px solid #ced4da; /* Border for quantity buttons */
+    border-radius: 0.25rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Input styling */
+.input-quantity {
+    width: 40px; /* Fixed width for quantity input */
+    text-align: center; /* Center text in input */
+    border: 1px solid #ced4da; /* Border for quantity input */
+    border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* Margin bottom utilities */
+.mb-0 {
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.mb-1 {
+    margin-bottom: 5px; /* Smaller bottom margin */
+}
+
+.mb-2 {
+    margin-bottom: 2px; /* Small bottom margin for balance */
+}
+
+/* Payment options styling */
+.payment-options {
+    margin-top: 10px; /* Space above payment options */
+}
+
+.form-check {
+    margin-bottom: 0.5rem; /* Space between payment options */
+}
+
+.form-check-input {
+    margin-right: 10px; /* Space between radio button and label */
+}
+
+
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 0; /* Padding for the footer */
+    position: relative; /* Position relative to content */
+    width: 100%; /* Full width */
+    bottom: 0; /* Aligns at the bottom */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    color: #6c757d; /* Dark gray text */
+  }
+  
+  
